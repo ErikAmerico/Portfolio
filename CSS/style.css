@@ -169,10 +169,22 @@ main {
     z-index: 1;
 }
 
-#goal2 {
-    display: none;
+#contact-info,
+#resume-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+#contact-info p #resume-info p {
+    flex: 1;
+    margin: 10px;
+}
+
+
+#goal2,
 #goal3 {
     display: none;
 }
