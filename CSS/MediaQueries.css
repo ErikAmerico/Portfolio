@@ -1,0 +1,126 @@
+@media screen and (max-width: 1199px) {
+    #goal2 {
+        display: flex;
+        position: absolute;
+        z-index: 1;
+    }
+
+    #subtitle img {
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    #goal3 {
+        display: flex;
+        position: absolute;
+        z-index: 1;
+    }
+
+    #subtitle img {
+        z-index: 2;
+    }
+
+    #goal2 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    #subtitle div {
+        display: flex;
+        align-items: center;
+    }
+
+    #subtitle div img {
+        position: absolute;
+    }
+
+    #goal2 {
+        display: none;
+    }
+
+    #goal3 {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        max-width: 96%;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+
+    #about-info,
+    #work-info,
+    #contact-info,
+    #resume-info {
+        width: 75%;
+        margin: 10px;
+        position: relative;
+        padding-left: 20px;
+    }
+
+    #about-title,
+    #work-title,
+    #contact-title,
+    #resume-title {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+        margin: 10px;
+        position: relative;
+        font-size: 250%;
+        color: #fff;
+        border: 2px solid grey;
+        background-color: rgb(64, 129, 151);
+        border-radius: 10px;
+        z-index: 1;
+    }
+
+
+    #about-info::before,
+    #work-info::before,
+    #contact-info::before,
+    #resume-info::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        border: 2px solid black;
+        z-index: -1;
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    #goal {
+        opacity: 0;
+    }
+
+}
