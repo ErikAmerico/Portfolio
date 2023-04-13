@@ -293,6 +293,15 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     padding: 10px 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resumeButton:hover,
+.githubButton:hover,
+.twitterButton:hover,
+.facebookButton:hover {
+    z-index: 1;
+    transform: translateY(-10px)
 }
 
 #contact-info p #resume-info {
