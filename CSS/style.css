@@ -90,6 +90,14 @@ nav a:hover {
     border-radius: 10px;
 }
 
+#subtitle img {
+    transition: transform 1s ease;
+}
+
+#subtitle img:hover {
+    transform: scaleY(-1)
+}
+
 #subtitle div {
     display: flex;
     align-items: center;
