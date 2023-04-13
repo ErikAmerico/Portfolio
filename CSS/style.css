@@ -112,6 +112,12 @@ nav a:hover {
     font-style: italic;
 }
 
+#subtitle #goal,
+#subtitle #goal2,
+#subtitle #goal3 {
+    -webkit-text-stroke: 1.5px black;
+}
+
 #subtitle img {
     display: inline-flex;
     height: 140px;
@@ -157,6 +163,7 @@ main {
     border-radius: 10px;
     z-index: 1;
     box-shadow: 0px 0px 10px black;
+    -webkit-text-stroke: 1.5px black;
 }
 
 #about-info,
