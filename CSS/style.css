@@ -90,13 +90,6 @@ nav a:hover {
     border-radius: 10px;
 }
 
-#subtitle img {
-    transition: transform 1s ease;
-}
-
-#subtitle img:hover {
-    transform: scaleY(-1)
-}
 
 #subtitle div {
     display: flex;
@@ -128,6 +121,13 @@ nav a:hover {
     margin-right: 20px;
 }
 
+#subtitle img {
+    transition: transform 1s ease;
+}
+
+#subtitle img:hover {
+    transform: scaleY(-1)
+}
 
 main {
     display: flex;
