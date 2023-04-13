@@ -11,4 +11,4 @@ This website is required to have the same functionality as the example below:
 - CSS
 
 #### Link to Portfolio website:
--
+- https://erikamerico.github.io/Portfolio/
