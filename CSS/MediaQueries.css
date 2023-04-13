@@ -141,11 +141,26 @@
         height: 100%;
         border: 2px solid black;
         z-index: -1;
-        display: none;
+        display: noneedimage
     }
 
     #contact-info {
         right: 60px;
     }
 
+}
+
+@media screen and (max-height: 555px) {
+    #subtitle div img {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 320px) {
+
+    #subtitle div #goal,
+    #subtitle div #goal2,
+    #subtitle div #goal3 {
+        display: none;
+    }
 }
