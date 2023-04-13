@@ -240,42 +240,18 @@ main {
 
 .resumeButton {
     background-image: url(../Images/resumeLogo.png);
-    height: 100px;
-    border-radius: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px 30px;
 }
 
 .githubButton {
     background-image: url(../Images/githubLogo.png);
-    height: 100px;
-    border-radius: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px 30px;
 }
 
 .twitterButton {
     background-image: url(../Images/twitterLogo.jpg);
-    height: 100px;
-    border-radius: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px 30px;
 }
 
 .facebookButton {
     background-image: url(../Images/facebookLogo.png);
-    height: 100px;
-    border-radius: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px 30px;
 }
 
 #resume-info {
@@ -287,6 +263,12 @@ main {
 .twitterButton,
 .facebookButton {
     text-indent: -9999px;
+    height: 100px;
+    border-radius: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 30px;
 }
 
 #contact-info p #resume-info {
@@ -305,11 +287,15 @@ main {
     border-radius: 10%;
     border-style: groove;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 50px;
+    font-weight: 700;
 }
 
 
 #email a {
     text-decoration: none;
+    text-shadow: 0px 0px 10px black;
 }
 
 
