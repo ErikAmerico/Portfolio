@@ -198,6 +198,7 @@ main {
 .card5:hover {
     box-shadow: 0px 0px 50px var(--portfolioblue);
     z-index: 1;
+    transform: translateY(-10px)
 }
 
 .main {
@@ -210,6 +211,7 @@ main {
     padding: 1.5%;
     text-decoration: none;
     color: white;
+    transition: transform 0.3s ease-in-out;
 }
 
 .card2,
@@ -224,6 +226,7 @@ main {
     padding: 1.5%;
     text-decoration: none;
     color: black;
+    transition: transform 0.3s ease-in-out;
 }
 
 .card2 {
