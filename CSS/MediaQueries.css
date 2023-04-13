@@ -141,7 +141,7 @@
         height: 100%;
         border: 2px solid black;
         z-index: -1;
-        display: noneedimage
+        display: none;
     }
 
     #contact-info {
