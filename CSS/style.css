@@ -75,6 +75,8 @@ nav a:hover {
 }
 
 
+
+
 #subtitle {
     display: flex;
     width: 100%;
@@ -189,7 +191,14 @@ main {
     justify-content: center;
 }
 
-
+.main:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover {
+    box-shadow: 0px 0px 50px var(--portfolioblue);
+    z-index: 1;
+}
 
 .main {
     flex-basis: 100%;
@@ -301,6 +310,11 @@ main {
     color: var(--portfolioblue);
     text-decoration: none;
     text-shadow: 0px 1px 5px rgb(255, 255, 255);
+}
+
+#email a:hover {
+    border-radius: 20%;
+    box-shadow: 0 0 10px var(--portfolioblue);
 }
 
 
