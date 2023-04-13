@@ -1,3 +1,23 @@
+@media screen and (max-width: 1760px) {
+
+    #contact-info {
+        flex-direction: column;
+        position: relative;
+        right: 45px;
+    }
+
+    #contact-info::before {
+        left: 45px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #goal {
+        opacity: 0;
+    }
+
+}
+
 @media screen and (max-width: 1199px) {
     #goal2 {
         display: flex;
@@ -80,6 +100,7 @@
         width: 100%;
         margin: 10px;
         position: relative;
+        right: 11px;
         padding-left: 20px;
     }
 
@@ -99,10 +120,11 @@
         align-self: center;
         margin: 10px;
         position: relative;
+        left: 8px;
         font-size: 250%;
         color: #fff;
         border: 2px solid grey;
-        background-color: rgb(64, 129, 151);
+        background-color: var(--portfolioblue);
         border-radius: 10px;
         z-index: 1;
     }
@@ -122,27 +144,8 @@
         display: none;
     }
 
-}
-
-
-@media screen and (max-width: 1200px) {
-    #goal {
-        opacity: 0;
-    }
-
-}
-
-
-/* switches contact info to column and centers */
-@media screen and (max-width: 1760px) {
-
     #contact-info {
-        flex-direction: column;
-        position: relative;
-        right: 45px;
+        right: 60px;
     }
 
-    #contact-info::before {
-        left: 45px;
-    }
 }

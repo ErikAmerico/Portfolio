@@ -5,6 +5,10 @@ body {
     background-color: rgb(176, 185, 196);
 }
 
+:root {
+    --portfolioblue: rgb(64, 129, 151)
+}
+
 header {
     background-color: rgb(107, 107, 107);
     border-bottom: 2px black solid;
@@ -56,7 +60,7 @@ nav a {
     font-size: larger;
     height: 40px;
     width: 100px;
-    background: linear-gradient(rgb(64, 129, 151),
+    background: linear-gradient(var(--portfolioblue),
             #3b4fff);
     border-radius: 5px;
     border: 1px solid rgb(75, 75, 75);
@@ -92,7 +96,7 @@ nav a:hover {
 
 #subtitle div span {
     color: #fff;
-    background-image: linear-gradient(to bottom, rgb(64, 129, 151) 10%, #3b4fff 50%);
+    background-image: linear-gradient(to bottom, var(--portfolioblue) 10%, #3b4fff 50%);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -139,7 +143,7 @@ main {
     font-size: 250%;
     color: #fff;
     font-weight: 550;
-    background-color: rgb(64, 129, 151);
+    background-color: var(--portfolioblue);
     border-radius: 10px;
     z-index: 1;
     box-shadow: 0px 0px 10px black;
